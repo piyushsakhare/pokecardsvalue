@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.playfair {
-  font-family: 'Playfair Display', serif;
-}
 .play2p {
   font-family: 'Press Start 2P', cursive;
 }
