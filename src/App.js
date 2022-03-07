@@ -104,7 +104,7 @@ function App() {
   function submitSearch(e) {
 
     e.preventDefault()
-    setPokemon(searchText)
+    setPokemon(searchText.toLowerCase())
   }
 
   function randomPokemon() {
