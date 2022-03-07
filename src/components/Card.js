@@ -13,9 +13,9 @@ function Card({card}) {
             <h1 className="text-xl font-semibold mt-1" >{card.name}</h1>
             <p><span className="font-semibold">Types :</span> {card.types}</p>
             <p><span className="font-semibold">Rarity :</span> {card.rarity}</p>
-            <div className="flex justify-between">
+            <div className="sm:flex sm:justify-between">
                 <h1 className="text-2xl font-bold m-1" >${price}</h1>
-                <a href={card.tcgplayer.url} target="_blank" rel="noreferrer" className="p-2 bg-yellow-400 rounded text-black font-black">Buy Now</a>
+                <a href={card.tcgplayer.url} target="_blank" rel="noreferrer" className="p-2 bg-yellow-400 rounded text-black font-black ">Buy Now</a>
             </div>
         </div>
     )
