@@ -17,7 +17,6 @@ function Footer() {
             <p className='justify-center flex' >gifs by .<a className='text-green-500' href='https://millivedder.tumblr.com/' rel="noreferrer" target='_blank' >@millivedder</a></p><br></br>
             <a className='flex justify-center items-center' href='https://piyushsakhare.netlify.app' target='_blank' rel="noreferrer">
             <p className="text-sm play2p mx-3" >Built by</p>
-                <h1 className='rounded-full dark:border-white border-gray-800 border-2 w-12 play2p p-1' >Pi</h1>
                 <span className="mx-3 play2p font-medium text-sm ">Piyush Sakhare</span>
             </a>
         </div>
