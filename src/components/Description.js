@@ -7,7 +7,7 @@ function Description({pokemon, gotoNextPokemon, gotoPrevPokemon, pokemonDetails,
         <div className='md:flex md:w-3/5 rounded-md p-2 ' >
             <div className="md:w-2/5 grid place-content-center px-2" >
                 <div className='w-full grid justify-items-center' >
-                    {loading ? <div className="rounded-full w-32 h-32 animate-pulse bg-slate-200 dark:bg-slate-700" > </div> : <img alt="pokemon-img" className="w-9/12 " src={ pokemonDetails?.sprites && pokemonDetails.sprites.other.dream_world.front_default ? pokemonDetails.sprites.other.dream_world.front_default : pokemonDetails.sprites.front_default}></img>}
+                    {loading ? <div className="rounded-full w-32 h-32 animate-pulse bg-slate-200 dark:bg-slate-700" > </div> : <img alt="pokemon-img" className="w-9/12 " src={ pokemonDetails?.sprites && pokemonDetails.sprites.other.dream_world.front_default ? pokemonDetails?.sprites.other.dream_world.front_default : pokemonDetails?.sprites.front_default}></img>}
                 </div>
                 
                 <div className="my-2 grid place-content-center" >
