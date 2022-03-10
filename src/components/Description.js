@@ -11,7 +11,7 @@ function Description({pokemon, gotoNextPokemon, gotoPrevPokemon, pokemonDetails,
                 </div>
                 
                 <div className="my-2 grid place-content-center" >
-                    <div className="flex items-center" ><span className="font-bold mr-1">Type : </span> {loading ? <div className="h-2 w-16 dark:bg-slate-700 bg-slate-300 rounded" ></div> : pokemonDetails.types.map(p => p.type.name + ' ')} </div>
+                    <div className="flex items-center" ><span className="font-bold mr-1">Type : </span> {loading ? <div className="h-2 w-16 dark:bg-slate-700 bg-slate-300 rounded" ></div> : pokemonDetails?.types.map(p => p.type.name + ' ')} </div>
                 </div>
             </div>
             <div className="md:w-3/5" >
