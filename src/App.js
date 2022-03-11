@@ -12,7 +12,7 @@ import Footer from './components/Footer';
 function App() {
   useDarkMode()
   
-  const [pokemon,setPokemon] = useState()
+  const [pokemon,setPokemon] = useState('bulbasaur')
   const [currentPokemon,setCurrentPokemon] = useState(`https://pokeapi.co/api/v2/pokemon?limit=1`)
   const [nextPokemon,setNextPokemon] = useState()
   const [prevPokemon,setPrevPokemon] = useState()
