@@ -36,7 +36,7 @@ function App() {
       setPokemon(res.data.results.map(p => p.name))
        
     }).catch(error => {
-      console.log(error.message)
+      window.location.reload(false);
   }) 
     return () => controller.abort()
   },[currentPokemon])
@@ -50,7 +50,7 @@ function App() {
         setPokemonDetails(res.data)
         
     }).catch(error => {
-      console.log(error.message)
+      window.location.reload(false);
   })
     
     return () => controller.abort()
@@ -64,7 +64,7 @@ function App() {
     }).then(res => {
       setPokemonSpecies(res.data)
     }).catch(error => {
-      console.log(error.message)
+      window.location.reload(false);
   })
     return () => controller.abort()
   },[pokemon])
@@ -78,7 +78,7 @@ function App() {
       setPokemonCards(res.data)
       
     }).catch(error => {
-      console.log(error.message)
+      window.location.reload(false);
   })
     return () => controller.abort()
   },[pokemon])
@@ -94,7 +94,7 @@ function App() {
       
       
     }).catch(error => {
-      console.log(error.message)
+      window.location.reload(false);
   })
     return () => controller.abort()
   },[pokemon])
