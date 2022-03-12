@@ -37,8 +37,8 @@ function Description({pokemon, gotoNextPokemon, gotoPrevPokemon, pokemonDetails,
                     <div className="flex items-center" >
                         <div className="w-1/2">
                             <div><span className="font-semibold" >Generation :</span> { loading ? <div className="h-2 dark:bg-slate-700 bg-slate-300 rounded" ></div> : pokemonSpecies.generation.name}</div>
-                            <div><span className="font-semibold" >Height :</span> { loading ? <div className="h-2 dark:bg-slate-700 bg-slate-300 rounded" ></div> : pokemonDetails.height}kg</div>
-                            <div><span className="font-semibold" >Weight :</span> { loading ? <div className="h-2 dark:bg-slate-700 bg-slate-300 rounded" ></div> : pokemonDetails.weight}cm</div>
+                            <div><span className="font-semibold" >Height :</span> { loading ? <div className="h-2 dark:bg-slate-700 bg-slate-300 rounded" ></div> : pokemonDetails.height}cm</div>
+                            <div><span className="font-semibold" >Weight :</span> { loading ? <div className="h-2 dark:bg-slate-700 bg-slate-300 rounded" ></div> : pokemonDetails.weight}kg</div>
                         </div>
                         <div className="w-1/2" > 
                             <div><span className="font-semibold" >Abilities :</span> { loading ? <div className="h-2 dark:bg-slate-700 bg-slate-300 rounded" ></div> : pokemonDetails.abilities.map(a => a.ability.name + " ")}</div>
