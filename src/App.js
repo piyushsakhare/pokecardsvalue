@@ -131,8 +131,8 @@ function App() {
           pokemon={pokemon}
           gotoNextPokemon = { nextPokemon ? gotoNextPokemon : null}
           gotoPrevPokemon = { prevPokemon ? gotoPrevPokemon : null}
-          pokemonDetails = {pokemonDetails}
-          pokemonSpecies = {pokemonSpecies}
+          pokemonDetails = {pokemonDetails && pokemonDetails}
+          pokemonSpecies = {pokemonSpecies && pokemonSpecies}
           randomPokemon = {randomPokemon}
           loading = {loading}
         />
